@@ -2,17 +2,25 @@
 
 body {
 display: flex;
+font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
 display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+background-color: white;
 }
+
 /*Nav section*/
 nav ul {
     display: flex;
     justify-content:space-between;
 }
 
+nav a {
+
+}
 /*The classes for each main part*/
 .section {
 
