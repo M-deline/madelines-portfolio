@@ -1,12 +1,37 @@
-body {
+/*The first part of the document*/
 
+body {
+display: flex;
 }
 
 header {
+display: flex;
+}
+/*Nav section*/
+nav ul {
+    display: flex;
+    justify-content:space-between;
+}
+
+/*The classes for each main part*/
+.section {
+
 
 }
 
-.section {
+.title-article {
 
+}
+
+/*The main three sections of the portfolio*/
+#about-me {
+
+}
+
+#work {
+
+}
+
+#contact-me {
 
 }
