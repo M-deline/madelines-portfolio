@@ -4,17 +4,14 @@
     box-sizing: border-box;
 }
 /*The first part of the document*/
-body {
-display: flex;
-font-family: Arial, Helvetica, sans-serif;
-background-color: silver;
-}
+
 
 header {
 display: flex;
 justify-content: space-between;
 flex-wrap: wrap;
-background-color: white;
+background-color: silver;
+font-family: Arial, Helvetica, sans-serif;
 padding: 15px 25px;
 }
 /*Header section*/
@@ -22,7 +19,6 @@ header h1{
 font-weight: bold;
 font-size: 40px;
 margin: 0;
-
 }
 
 /*Nav section*/
@@ -34,7 +30,6 @@ nav ul {
     flex-wrap: wrap;
     justify-content:space-between;
     align-items: center;
-    font-weight: lighter;
 }
 li {
     padding: 15px 20px;
@@ -47,8 +42,9 @@ a {
 }
 /*The classes for each main part*/
 .section {
-padding: 60px;
-
+padding: 30px;
+justify-co
+align-items: center;
 }
 
 .title-article {
