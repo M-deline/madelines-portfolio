@@ -64,6 +64,13 @@ img {
     margin:10px;
     width: 400px;
     height: auto;
+   float: right;
+}
+figure {
+    text-align: center;
+    border: skyblue solid;
+    margin: 5px;
+    padding: 5px;
     float: right;
 }
 footer {
