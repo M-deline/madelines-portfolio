@@ -25,6 +25,9 @@ font-weight: bold;
 font-size: 60px;
 margin: 0;
 }
+h2 {
+    font-weight: bold;
+}
 
 /*Nav section*/
 nav {
@@ -53,7 +56,18 @@ nav ul li a:hover {
     
 }
 img {
-    
+    display: flex;
+    border: 10px;
+    border-style: solid;
+    border-width: 1px;
+    margin-right: 20px;
+    margin:10px;
+    width: 400px;
+    height: auto;
+    flex-direction: ;
+}
+footer {
+    font-weight: lighter;
 }
 /*The classes for each main part*/
 .section {
@@ -80,5 +94,5 @@ border-width: 1px;
 }
 
 #contact-me {
-
+    
 }
