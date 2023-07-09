@@ -76,7 +76,6 @@ figure {
 }
 footer {
     font-weight: lighter;
-   
 }
 /*The classes for each main part*/
 .section {
@@ -100,14 +99,31 @@ border-width: 1px;
 }
 
 /*The main three sections of the portfolio*/
+/*I need to use the display and justify content that way the different sections are spaced out and not squished together*/
 #about-me {
-
+    align-items: center;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 #work {
-
+    align-items: center;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
 }
 
 #contact-me {
-
+    align-items: center;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
