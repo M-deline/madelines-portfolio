@@ -73,7 +73,7 @@ img {
 figure {
     text-align: center;
     border: skyblue solid;
-    margin: 5px;
+    margin: 0px;
     padding: 5px;
     float: right;
 }
@@ -97,7 +97,7 @@ padding-bottom: 5px;
 
 .title-article {
 padding: 10px;
-border-style: solid;
+border-style: solid navy;
 border-width: 1px;
 }
 
