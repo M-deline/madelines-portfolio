@@ -162,7 +162,7 @@ border-width: 1px;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-
+/*when screen is 1095 x 812 pixels the images shift so I need to change this part*/
 @@media screen and (max-width: 600px) {
     div.example {
       display: none;
