@@ -191,7 +191,7 @@ align-self: flex-start;
     justify-content: space-between;
 }
 /*when screen is 1095 x 812 pixels the images shift so I need to change this part*/
-    @media screen and (max-width: 811px) {
+    @media screen and (max-width: 801px) {
         header {
             padding: 10px 20px;
         }
@@ -214,7 +214,7 @@ align-self: flex-start;
         font-size: 18px;
     }
     #one {
-        width: 500px;
+        width: 400px;
         margin: 22px;
     }
     }
