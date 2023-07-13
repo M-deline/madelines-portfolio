@@ -12,6 +12,7 @@
 [link] (https://m-deline.github.io/madelines-portfolio/)
 
 ## Screenshot of Completed Website
+<img width="498" alt="Screenshot of deployed webpage" src="https://github.com/M-deline/madelines-portfolio/assets/134882025/ce739976-6a0e-469b-a2f5-22ed86e19965">
 
 ## Contributors
 - Flanoz. “File:Placeholder View Vector.Svg.” Wikimedia Commons, 17 Sept. 2020, commons.wikimedia.org/wiki/File:Placeholder_view_vector.svg. 
