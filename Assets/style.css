@@ -33,7 +33,7 @@ h2 {
 }
 
 p {
-    font-size: 25px;
+    font-size: 20px;
 }
 /*Nav section*/
 nav {
@@ -76,6 +76,7 @@ img {
     height: auto;
     float: right;
     object-fit: fill;
+    
 }
 img:hover {
     box-shadow: 5px 5px 5px;
@@ -146,6 +147,7 @@ border-width: 1px;
 margin-right: 40px;
 margin: 10px;
 height: auto;
+object-position: left top;
 }
 
 /*The main three sections of the portfolio*/
