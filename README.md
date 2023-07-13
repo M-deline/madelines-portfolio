@@ -8,7 +8,10 @@
 - HTML
 - CSS
 - CSS reset sylesheet.
-## Screenshot of Completed Website:
+## Deployment
+[link] (https://m-deline.github.io/madelines-portfolio/)
+
+## Screenshot of Completed Website
 
 ## Contributors
 - Flanoz. “File:Placeholder View Vector.Svg.” Wikimedia Commons, 17 Sept. 2020, commons.wikimedia.org/wiki/File:Placeholder_view_vector.svg. 
