@@ -72,7 +72,7 @@ img {
     border-width: 1px;
     margin-right: 20px;
     margin:10px;
-    width: 250px;
+    width: 400px;
     height: auto;
     float: right;
 }
@@ -163,7 +163,7 @@ border-width: 1px;
     justify-content: space-between;
 }
 /*when screen is 1095 x 812 pixels the images shift so I need to change this part*/
-    @media screen and (min-width: 811px) {
+    @media screen and (max-width: 811px) {
         header {
             padding: 10px 20px;
         }
@@ -180,7 +180,7 @@ border-width: 1px;
         font-size: 18px;
     }
     img {
-        
+        width: 250px;
     }
     a {
         font-size: 18px;
