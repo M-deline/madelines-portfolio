@@ -176,5 +176,13 @@ border-width: 1px;
         li {
             padding: 3px 5px;
         }
-        }
+    p {
+        font-size: 18px;
+    }
+    img {
+        
+    }
+    a {
+        font-size: 18px;
+    }
     }
