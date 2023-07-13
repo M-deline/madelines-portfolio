@@ -76,6 +76,7 @@ img {
     height: auto;
     float: right;
     object-fit: fill;
+    flex-direction: column;
     
 }
 img:hover {
@@ -148,6 +149,7 @@ margin-right: 40px;
 margin: 10px;
 height: auto;
 object-position: left top;
+flex-direction: column;
 }
 
 /*The main three sections of the portfolio*/
