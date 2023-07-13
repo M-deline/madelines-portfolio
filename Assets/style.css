@@ -1,3 +1,12 @@
+:root {
+--text-color: navy;
+--backgroud-color: lightblue;
+--weighted: bold;
+--f-format: flex;
+
+
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -9,11 +18,11 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
-    color: navy;
+    color:var(--text-color);
 }
 /*position relative otherwise it follows the user whenevr they scroll down*/
 header {
-display: flex;
+display:var(--f-format);
 justify-content: space-between;
 flex-wrap: wrap;
 background-image: linear-gradient(blue, lightblue);
@@ -23,12 +32,12 @@ position: relative;
 }
 /*Header section*/
 header h1{
-font-weight: bold;
+font-weight:var(--weighted);
 font-size: 60px;
 margin: 0;
 }
 h2 {
-    font-weight: bold;
+    font-weight:var(--weighted);
     font-size: 30px;
 }
 
@@ -41,7 +50,7 @@ nav {
     
 }
 nav ul {
-    display: flex;
+    display:var(--f-format);
     flex-wrap: wrap;
     justify-content:space-between;
     align-items: center;
@@ -59,14 +68,13 @@ a {
 }
 nav ul li a:hover {
     border: 10px;
-    background-color: lightblue;
     text-decoration: underline;
 
     
 }
 
 img {
-    display: flex;
+    display:var(--f-format);
     border: 10px;
     border-style: solid;
     border-width: 1px;
@@ -88,8 +96,7 @@ img:hover {
 
 figure {
     text-align: center;
-    border: navy;
-    background-color: skyblue;
+    border:var(--text-color);
     margin: 0px;
     padding: 2px;
     float: right;
@@ -98,8 +105,8 @@ figure {
 
 /*NEED TO FIX THIS*/
 figcaption {
-    color: navy;
-    background-color: lightblue;
+    color:var(--text-color);
+    background-color:var(--backgroud-color);
    text-align: start;
     font-weight: bold;
 
@@ -107,14 +114,14 @@ figcaption {
 }
 a:hover {
     border:10px;
-    background-color: lightblue;
+    background-color:var(--backgroud-color);
     text-decoration: underline;
 }
 footer {
     margin: 3px;
     padding: 20px;
     text-align: left;
-    background-color: lightblue;
+    background-color:var(--backgroud-color);
     text-align: center;
 }
 /*The classes for each main part*/
@@ -134,7 +141,7 @@ padding-bottom: 5px;
 
 .title-article {
 padding: 10px;
-border-style: solid navy;
+border-style: solid var(--backgroud-color);
 border-width: 1px;
 }
 /*trying to make one image bigger than the rest*/ 
@@ -160,7 +167,7 @@ align-self: flex-start;
     align-items: center;
     margin: 0;
     width: 100%;
-    display: flex;
+    display:var(--f-format);
     flex-wrap: wrap;
     justify-content: space-between;
 }
@@ -169,7 +176,7 @@ align-self: flex-start;
     align-items: center;
     margin: 0;
     width: 100%;
-    display: flex;
+    display:var(--f-format);
     flex-wrap: wrap;
     justify-content: space-between;
    
@@ -179,7 +186,7 @@ align-self: flex-start;
     align-items: center;
     margin: 0;
     width: 100%;
-    display: flex;
+    display:var(--f-format);
     flex-wrap: wrap;
     justify-content: space-between;
 }
